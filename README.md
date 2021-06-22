@@ -9,15 +9,12 @@ Y Recolección De Información Básica De Apps En Apklis.
 
  • Descarga El Zip Y Agrega Los Archivos ApklisUtil.java
  Y ApklisUpdatesJobService.java A La Carpeta Java De Tu Proyecto.
-
-
-# Uso
-
- • Cambia El Package De Los Archivos ApklisUtil.java
- Y ApklisUpdatesJobService.java Por El Package De Tu App.
  
+  • Cambia El Package De Los Archivos ApklisUtil.java
+ Y ApklisUpdatesJobService.java Por El Package De Tu App.
 
-# Ejemplo
+
+# Uso 
 
 
  

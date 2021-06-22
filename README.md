@@ -19,8 +19,10 @@ Y Recolección De Información Básica De Apps En Apklis.
 
 # Ejemplo
 
+
  
  ```java
+ 
 
 
         /* BroadcastReceiver Para Manejo De Eventos Asociados A Existencia De Actualización O Obtención De Info */
@@ -29,8 +31,14 @@ Y Recolección De Información Básica De Apps En Apklis.
             @Override
             public void onReceive(Context context, Intent intent) {
 
-                Float info = intent.getFloatExtra("info_value",-1);
-                String version_name = intent.getStringExtra("version_name");
+
+                Float info = intent.getFloatExtra("info_value",-1); /* Respuesta Del Método getInfo() Valor De La Constante Solicitada */
+                
+                
+                String version_name = intent.getStringExtra("version_name"); /* Respuesta Del Método startLookingForUpdates() Valor De La Versión Name De La App 
+                                                                                Si Existe Una Actualización */
+                
+                
 
                 if(info!=-1){
                 
@@ -76,7 +84,7 @@ Y Recolección De Información Básica De Apps En Apklis.
        
        
        
-        // Método Para Obtener UserName. Es Necesario Tener Instalada La App De Apklis Y Una Sesión Activa En Esta De Lo Contrario Devolverá null
+        /* Método Para Obtener UserName. Es Necesario Tener Instalada La App De Apklis Y Una Sesión Activa En Esta De Lo Contrario Devolverá null */
         
        String username = apklis.getUserName();
        
@@ -100,13 +108,23 @@ Y Recolección De Información Básica De Apps En Apklis.
        
        /* Método Para Actualizar Información Básica Sobre La App. La Respuesta De Este Método Se Maneja En El BroadcastReceiver */
        
-       apklis.getInfo(apklis.DOWNLOADS); /* Recibe Como Parámetro Un String  
+       apklis.getInfo(apklis.DOWNLOADS); /* Recibe Como Parámetro Un String (Posibles Valores Constantes:
+                                                                                              apklis.DOWNLOADS: Número De Descargas
+                                                                                              apklis.SALES: Número De Ventas
+                                                                                              apklis.RATING: Número De Descargas
+                                                                                              apklis.REVIEWS: Número De Reviews
+                                                                                              apklis.PRICE: Precio
+                                                                                              apklis.REVIEWS_STAR_1: Número De Reviews 1 Estrella
+                                                                                              apklis.REVIEWS_STAR_2: Número De Reviews 2 Estrellas
+                                                                                              apklis.REVIEWS_STAR_3: Número De Reviews 3 Estrellas
+                                                                                              apklis.REVIEWS_STAR_4: Número De Reviews 4 Estrellas
+                                                                                              apklis.REVIEWS_STAR_5: Número De Reviews 5 Estrellas */
        
         
 
+
+
 ```
 
-
- # Métodos
  
  

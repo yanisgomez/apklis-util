@@ -25,8 +25,7 @@ Y Recolección De Información Básica De Apps En Apklis.
                  android:permission="android.permission.BIND_JOB_SERVICE"
                  android:exported="true"> 
          
-        </service>
-         
+        </service>       
  ```
 
 

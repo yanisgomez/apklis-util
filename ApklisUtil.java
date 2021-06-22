@@ -23,7 +23,7 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.concurrent.TimeUnit;
 
-public class ApklisUtil{
+public class ApklisUtil {
 
     public final String DOWNLOADS = "\"download_count\":";
     public final String SALES = "\"sale_count\":";

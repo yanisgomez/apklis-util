@@ -1,6 +1,6 @@
 # apklis-util
 
-• API Java Para Verificación De Pago, Búsqueda De Actualizaciones,
+• API Java Para Verificación De Pagos, Búsqueda De Actualizaciones,
 Y Recolección De Información Básica De Apps En Apklis.
 
 

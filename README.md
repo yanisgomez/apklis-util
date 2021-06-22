@@ -21,11 +21,11 @@ Y Recolección De Información Básica De Apps En Apklis.
 
  ```xml
  
-
-
         <service android:name=".ApklisUpdatesJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE"
                  android:exported="true"> 
+         
+        </service>
          
  ```
 
@@ -137,6 +137,3 @@ Y Recolección De Información Básica De Apps En Apklis.
         
 
 ```
-
- 
- 

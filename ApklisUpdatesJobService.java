@@ -69,7 +69,7 @@ public class ApklisUpdatesJobService extends JobService {
                                     notificationManager.createNotificationChannel(chanel);
                                 }
 
-                                NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext()),"chanel")
+                                NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(),"chanel")
                                         .setSmallIcon(R.mipmap.ic_launcher)
                                         .setContentTitle(getApplicationContext().getApplicationInfo().loadLabel(getApplicationContext().getPackageManager()).toString())
                                         .setContentText("Nueva Versión v"+version_name+" Disponible En Apklis")

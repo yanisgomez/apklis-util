@@ -91,13 +91,13 @@ Y Recolección De Información Básica De Apps En Apklis.
        /* Método Para Verificar Si Existe Una Actualización. Sobrecarga de Métodos. La Respuesta De Este Método Se Maneja En El BroadcastReceiver
           Si La App Está En Primer Plano Si No Se Lanza Una Notificación */
        
-       apklis.startLookingForUpdates(int Segundos); /* Se Ejecuta Una Sola Vez Cuando Es Llamado Recibe Como Parámetro Un Entero Que Representa
+       apklis.startLookingForUpdates(int Segundos); /* Se Ejecuta Una Sola Vez Cuando Es Llamado. Recibe Como Parámetro Un Entero Que Representa
                                                        El Tiempo En Segundos Que Debe Transcurrir Como Mínimo Desde La Llamada Hasta La Ejecución */ 
        
-       apklis.startLookingForUpdates(int Minutos, boolean Irrelevante); /* Se Ejecuta Periódicamente Recibe Como Parámetros Un Entero Que Representa
-                                                                           El Periodo Que Debe Transcurrir Entre Una Búsqueda Y Otra (Para Android N Y
-                                                                           Versiones Superiores El Tiempo Mínimo Permitido Es 15 Minutos) Y Un Booleano,
-                                                                           Este último Valor Es Irrelevante. */
+       apklis.startLookingForUpdates(int Minutos, boolean Irrelevante); /* Se Ejecuta Periódicamente. Recibe Como Parámetros Un Entero Que Representa
+                                                                           El Tiempo En Minutos Que Debe Transcurrir Entre Una Búsqueda Y Otra (Para 
+                                                                           Android N Y Versiones Superiores El Tiempo Mínimo Permitido Es 15 Minutos)
+                                                                           Y Un Booleano, Este último Valor Es Irrelevante. */
                                                                         
        
        

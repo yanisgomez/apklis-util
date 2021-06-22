@@ -40,7 +40,7 @@ Y Recolección De Información Básica De Apps En Apklis.
                 if(info!=-1){
                 
                    /* Código A Ejecutar Cuando Obtienes Información De La App Usando El Método getInfo()
-                      (Ejemplo: Agregar Una Frame Layout Con La Información Obtenida De La App En Apklis) */
+                      (Ejemplo: Agregar Un Frame Layout Con La Información Obtenida De La App En Apklis) */
                    
                 }
                 
@@ -48,7 +48,7 @@ Y Recolección De Información Básica De Apps En Apklis.
                 if(version_name!=null) {
                 
                    /* Código A Ejecutar Cuando Existe Una Nueva Actualización De La App Usando El Método startLookingForUpdates() 
-                      (Ejemplo: Agregar Una Frame Layout Con La Información Y Un Botón Que Redirige A La App En Apklis)
+                      (Ejemplo: Agregar Un Frame Layout Con La Información Y Un Botón Que Redirige A La App En Apklis)
                       Si La App No Se Encuentra En Primer Plano Se Lanza Una Notificación Con La Información
                       De Que Existe Una Nueva Versión Y La Version Name */
                       

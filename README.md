@@ -25,9 +25,7 @@ Y Recolección De Información Básica De Apps En Apklis.
 
         <service android:name=".ApklisUpdatesJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE"
-                 android:exported="true">
-         
-         
+                 android:exported="true"> 
          
  ```
 
@@ -137,8 +135,6 @@ Y Recolección De Información Básica De Apps En Apklis.
                                                                                               apklis.REVIEWS_STAR_5: Número De Reviews 5 Estrellas */
        
         
-
-
 
 ```
 

@@ -1,6 +1,5 @@
 package your.app.package_id;
 
-import android.app.Activity;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
@@ -24,7 +23,7 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.concurrent.TimeUnit;
 
-public class ApklisUtil extends Activity{
+public class ApklisUtil{
 
     public final String DOWNLOADS = "\"download_count\":";
     public final String SALES = "\"sale_count\":";

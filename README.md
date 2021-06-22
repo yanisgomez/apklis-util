@@ -16,7 +16,7 @@ Y Recolección De Información Básica De Apps En Apklis.
 
 # Uso 
 
-• Manifiest.xml
+• AndroidManifest.xml
 
 
  ```xml

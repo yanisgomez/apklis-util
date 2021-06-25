@@ -14,9 +14,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.Process;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.content.LocalBroadcastManager;
+import android.support.v4.app.NotificationCompat;          // API 29+: import androidx.core.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;   // API 29+: import androidx.core.app.NotificationManagerCompat;
+import android.support.v4.content.LocalBroadcastManager;   // API 29+: import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.BufferedReader;
 import java.io.IOException;

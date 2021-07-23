@@ -124,7 +124,7 @@ Y Recolección De Información Básica De Apps En Apklis.
        apklis.getInfo(apklis.DOWNLOADS); /* Recibe Como Parámetro Un String (Posibles Valores Constantes:
                                                                                               apklis.DOWNLOADS: Número De Descargas
                                                                                               apklis.SALES: Número De Ventas
-                                                                                              apklis.RATING: Número De Descargas
+                                                                                              apklis.RATING: Calificación 
                                                                                               apklis.REVIEWS: Número De Reviews
                                                                                               apklis.PRICE: Precio
                                                                                               apklis.REVIEWS_STAR_1: Número De Reviews 1 Estrella
